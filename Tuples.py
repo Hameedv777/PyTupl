@@ -1,0 +1,25 @@
+
+print("===Printing the whole tuple===")
+tup=(10,20,30,40)
+print(tup)
+tpls=list(tup)
+print("===Tuple convert to List===")
+
+print(tpls)
+print("===Pop the the list tuple===")
+tpls.pop(2)
+
+print(tpls)
+tpls.reverse()
+print("===Revrse the the list tuple===")
+print(tpls)
+tpls.remove(10)
+print("===Remove  the the list tuple===")
+print(tpls)
+tpls.insert(2,33)
+print("===Isertion the the list tuple===")
+print(tpls)
+
+tpls.append("Babu")
+print("===Append the the list tuple===")
+print(tpls)
